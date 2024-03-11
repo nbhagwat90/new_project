@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM rocklinux:latest
 MAINTAINER Ian Agpawa<agpawaji@gmail.com>
 RUN yum update -y
 RUN yum install httpd -y
