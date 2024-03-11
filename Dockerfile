@@ -1,5 +1,5 @@
 # create new
-FROM ubuntu
+FROM ubuntu:18.04
 MAINTAINER ServerWorld <admin@srv.world>
 
 RUN apt-get update
