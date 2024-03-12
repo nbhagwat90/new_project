@@ -1,7 +1,6 @@
 - hosts: all
   become: true
-  remote_user: ubuntu
-  
+    
   tasks: 
      - name: delete old deployment
        command: kubectl delete -f /home/ubuntu/Deployment.yml
