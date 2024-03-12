@@ -7,7 +7,7 @@ RUN apt-get -y install tzdata
 RUN apt-get -y install apache2
 RUN echo "Dockerfile Test on Apache2" > /var/www/html/index.html
 
-EXPOSE 80
+EXPOSE 80 22
 CMD ["/usr/sbin/apachectl", "-D", "FOREGROUND"]
 
 # FROM  centos:latest
